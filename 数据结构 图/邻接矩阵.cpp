@@ -38,7 +38,7 @@ bool InitMGraph(MGraph* mg, int size, Elemtype noEdgeValue) {
 	}
 	return 1;
 }
-//释放图空间
+//释放图空间xx
 void DestroyMGraph(MGraph* mg) {
 	int i;
 	for (i = 0;i < mg->n;i++)
